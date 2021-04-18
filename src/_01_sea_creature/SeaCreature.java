@@ -6,7 +6,7 @@ package _01_sea_creature;
 
 import javax.swing.JApplet;
 import java.applet.AudioClip;
-
+	//LISTENING TO MUSIC 
 public class SeaCreature {
 	
 	// 1. In a Runner class, make a SeaCreature called "Spongebob". Use the methods below to make him eat, and laugh.
