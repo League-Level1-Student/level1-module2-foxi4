@@ -30,7 +30,8 @@ class TeaBag {
 }
 
 class Kettle {
-
+//use kettle to get water (see getWater method)
+//
 	private Water water = new Water();
 
 	Water getWater() {

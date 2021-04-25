@@ -23,25 +23,27 @@ public class Smurf {
 
 	
 	public String getName() {
-		return "My name is " + name + " Smurf.";
+		System.out.println("Their name is " + name + ".");
+		return "Their name is " + name + ".";
 	}
 
 	public void eat() {
-		System.out.println(name + " Smurf is eating Smurfberries.");
+		System.out.println(name + " is eating Smurfberries.");
 	}
 
 	// Papa Smurf wears a red hat, all the others are white.
 	public String getHatColor(String hatcolor) {
 		// 3. Fill in this method
 this.hatcolor = hatcolor;
-		return "My hat color is " + hatcolor + ".";
-		
+System.out.println("Their hat color is " + hatcolor + ".");
+return "Their hat color is " + hatcolor + ".";
 	}
 
 	// Smurfette is the only female Smurf.
-	public String isGirlOrBoy() {
+	public String isGirlOrBoy(String gender) {
 		// 4. Fill in this method
-		return "";
+		System.out.println(name+ " is " + gender + ".");
+		return name + " is " + gender;
 	}
 
 }
