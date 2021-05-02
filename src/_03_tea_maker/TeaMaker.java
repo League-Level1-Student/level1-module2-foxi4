@@ -3,11 +3,24 @@ package _03_tea_maker;
  *    Copyright (c) The League of Amazing Programmers 2013-2019
  *    Level 1
  */
-
+//playing music 
 public class TeaMaker {
 
 	/* Figure out how to make a cup of tea in this runner class, using the other classes below */
 
+	public static void main(String[] args) {
+		Cup cup = new Cup();
+		TeaBag teabag = new TeaBag("dried rose petal TEEEAAAAAAAAAAAA");
+		teabag.getFlavor();
+		Kettle water = new Kettle();
+		water.getWater();
+		
+		//cup 
+		//teabag
+		//kettle (get water)
+		//make tea
+		//look at parameters, if there are any.
+	}
 }
 
 class TeaBag {
