@@ -1,25 +1,35 @@
 package _03_tea_maker;
+
+import _03_tea_maker.Kettle.Water;
+
 /*
  *    Copyright (c) The League of Amazing Programmers 2013-2019
  *    Level 1
  */
-//playing music 
+//playing music rn
 public class TeaMaker {
 
 	/* Figure out how to make a cup of tea in this runner class, using the other classes below */
 
 	public static void main(String[] args) {
 		Cup cup = new Cup();
-		TeaBag teabag = new TeaBag("dried rose petal TEEEAAAAAAAAAAAA");
+		
+		TeaBag teabag = new TeaBag("dried rose petal");
 		teabag.getFlavor();
 		Kettle water = new Kettle();
-		water.getWater();
+		Water water1 = water.getWater();
+		water.boil();
+		cup.makeTea(teabag, water1);
 		
-		//cup 
-		//teabag
+		//steps
+		//make cup 
+		//teabag flavor?
 		//kettle (get water)
+		//water should have place to put
 		//make tea
 		//look at parameters, if there are any.
+		//that was confusing
+		
 	}
 }
 
@@ -77,7 +87,6 @@ class Cup {
 		else
 			System.out.println("Can't make tea with cold water! ");
 	}
-
 }
 
 

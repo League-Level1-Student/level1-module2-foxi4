@@ -30,7 +30,7 @@ This is because there is no Minion class in the package.
   If they’re done right, all these tests will pass.
   
   To check, run this MinionTest class and the JUnit tab should show a GREEN bar.
-    
+    //yay it did.
  */
 
 public class MinionTest {
